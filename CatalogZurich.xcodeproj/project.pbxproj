@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,25 @@
 		7082334F250DB77500370066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7082334D250DB77500370066 /* LaunchScreen.storyboard */; };
 		7082335A250DB77600370066 /* CatalogZurichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70823359250DB77600370066 /* CatalogZurichTests.swift */; };
 		70823365250DB77600370066 /* CatalogZurichUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70823364250DB77600370066 /* CatalogZurichUITests.swift */; };
+		70823374250DB93900370066 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 70823373250DB93900370066 /* Lottie */; };
+		70823376250DB96C00370066 /* Raffina.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70823375250DB96C00370066 /* Raffina.ttf */; };
+		70823377250DB96C00370066 /* Raffina.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70823375250DB96C00370066 /* Raffina.ttf */; };
+		70823378250DB96C00370066 /* Raffina.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70823375250DB96C00370066 /* Raffina.ttf */; };
+		7082337A250DBB6400370066 /* LottieDosi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70823379250DBB6300370066 /* LottieDosi.swift */; };
+		7082337B250DBB6400370066 /* LottieDosi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70823379250DBB6300370066 /* LottieDosi.swift */; };
+		7082337C250DBB6400370066 /* LottieDosi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70823379250DBB6300370066 /* LottieDosi.swift */; };
+		7082337E250DBCAA00370066 /* a567.json in Resources */ = {isa = PBXBuildFile; fileRef = 7082337D250DBCA900370066 /* a567.json */; };
+		7082337F250DBCAA00370066 /* a567.json in Resources */ = {isa = PBXBuildFile; fileRef = 7082337D250DBCA900370066 /* a567.json */; };
+		70823380250DBCAA00370066 /* a567.json in Resources */ = {isa = PBXBuildFile; fileRef = 7082337D250DBCA900370066 /* a567.json */; };
+		70823382250DBCBA00370066 /* a123.json in Resources */ = {isa = PBXBuildFile; fileRef = 70823381250DBCBA00370066 /* a123.json */; };
+		70823383250DBCBA00370066 /* a123.json in Resources */ = {isa = PBXBuildFile; fileRef = 70823381250DBCBA00370066 /* a123.json */; };
+		70823384250DBCBA00370066 /* a123.json in Resources */ = {isa = PBXBuildFile; fileRef = 70823381250DBCBA00370066 /* a123.json */; };
+		70823386250DBCC500370066 /* 6789.json in Resources */ = {isa = PBXBuildFile; fileRef = 70823385250DBCC500370066 /* 6789.json */; };
+		70823387250DBCC500370066 /* 6789.json in Resources */ = {isa = PBXBuildFile; fileRef = 70823385250DBCC500370066 /* 6789.json */; };
+		70823388250DBCC500370066 /* 6789.json in Resources */ = {isa = PBXBuildFile; fileRef = 70823385250DBCC500370066 /* 6789.json */; };
+		7082338A250DBCD400370066 /* 12345.json in Resources */ = {isa = PBXBuildFile; fileRef = 70823389250DBCD400370066 /* 12345.json */; };
+		7082338B250DBCD400370066 /* 12345.json in Resources */ = {isa = PBXBuildFile; fileRef = 70823389250DBCD400370066 /* 12345.json */; };
+		7082338C250DBCD400370066 /* 12345.json in Resources */ = {isa = PBXBuildFile; fileRef = 70823389250DBCD400370066 /* 12345.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +70,12 @@
 		70823360250DB77600370066 /* CatalogZurichUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatalogZurichUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70823364250DB77600370066 /* CatalogZurichUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogZurichUITests.swift; sourceTree = "<group>"; };
 		70823366250DB77600370066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70823375250DB96C00370066 /* Raffina.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Raffina.ttf; sourceTree = "<group>"; };
+		70823379250DBB6300370066 /* LottieDosi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieDosi.swift; sourceTree = "<group>"; };
+		7082337D250DBCA900370066 /* a567.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = a567.json; sourceTree = "<group>"; };
+		70823381250DBCBA00370066 /* a123.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = a123.json; sourceTree = "<group>"; };
+		70823385250DBCC500370066 /* 6789.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 6789.json; sourceTree = "<group>"; };
+		70823389250DBCD400370066 /* 12345.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 12345.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70823374250DB93900370066 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +131,8 @@
 				70823341250DB76A00370066 /* SceneDelegate.swift */,
 				70823346250DB76A00370066 /* ContentView.swift */,
 				70823348250DB77500370066 /* Assets.xcassets */,
+				70823379250DBB6300370066 /* LottieDosi.swift */,
+				7082338D250DBD2900370066 /* ModelAndJSON */,
 				7082334D250DB77500370066 /* LaunchScreen.storyboard */,
 				70823350250DB77500370066 /* Info.plist */,
 				70823343250DB76A00370066 /* CatalogZurich.xcdatamodeld */,
@@ -139,6 +167,18 @@
 			path = CatalogZurichUITests;
 			sourceTree = "<group>";
 		};
+		7082338D250DBD2900370066 /* ModelAndJSON */ = {
+			isa = PBXGroup;
+			children = (
+				70823381250DBCBA00370066 /* a123.json */,
+				70823389250DBCD400370066 /* 12345.json */,
+				70823385250DBCC500370066 /* 6789.json */,
+				7082337D250DBCA900370066 /* a567.json */,
+				70823375250DB96C00370066 /* Raffina.ttf */,
+			);
+			path = ModelAndJSON;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,6 +195,9 @@
 			dependencies = (
 			);
 			name = CatalogZurich;
+			packageProductDependencies = (
+				70823373250DB93900370066 /* Lottie */,
+			);
 			productName = CatalogZurich;
 			productReference = 7082333C250DB76A00370066 /* CatalogZurich.app */;
 			productType = "com.apple.product-type.application";
@@ -227,6 +270,9 @@
 				Base,
 			);
 			mainGroup = 70823333250DB76A00370066;
+			packageReferences = (
+				70823372250DB93900370066 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 7082333D250DB76A00370066 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -243,9 +289,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70823382250DBCBA00370066 /* a123.json in Resources */,
+				7082338A250DBCD400370066 /* 12345.json in Resources */,
+				70823386250DBCC500370066 /* 6789.json in Resources */,
 				7082334F250DB77500370066 /* LaunchScreen.storyboard in Resources */,
 				7082334C250DB77500370066 /* Preview Assets.xcassets in Resources */,
+				70823376250DB96C00370066 /* Raffina.ttf in Resources */,
 				70823349250DB77500370066 /* Assets.xcassets in Resources */,
+				7082337E250DBCAA00370066 /* a567.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +304,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7082338B250DBCD400370066 /* 12345.json in Resources */,
+				70823383250DBCBA00370066 /* a123.json in Resources */,
+				7082337F250DBCAA00370066 /* a567.json in Resources */,
+				70823377250DB96C00370066 /* Raffina.ttf in Resources */,
+				70823387250DBCC500370066 /* 6789.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +316,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7082338C250DBCD400370066 /* 12345.json in Resources */,
+				70823384250DBCBA00370066 /* a123.json in Resources */,
+				70823380250DBCAA00370066 /* a567.json in Resources */,
+				70823378250DB96C00370066 /* Raffina.ttf in Resources */,
+				70823388250DBCC500370066 /* 6789.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +333,7 @@
 			files = (
 				70823340250DB76A00370066 /* AppDelegate.swift in Sources */,
 				70823345250DB76A00370066 /* CatalogZurich.xcdatamodeld in Sources */,
+				7082337A250DBB6400370066 /* LottieDosi.swift in Sources */,
 				70823347250DB76A00370066 /* ContentView.swift in Sources */,
 				70823342250DB76A00370066 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7082335A250DB77600370066 /* CatalogZurichTests.swift in Sources */,
+				7082337B250DBB6400370066 /* LottieDosi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70823365250DB77600370066 /* CatalogZurichUITests.swift in Sources */,
+				7082337C250DBB6400370066 /* LottieDosi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,6 +662,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		70823372250DB93900370066 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		70823373250DB93900370066 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70823372250DB93900370066 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		70823343250DB76A00370066 /* CatalogZurich.xcdatamodeld */ = {
