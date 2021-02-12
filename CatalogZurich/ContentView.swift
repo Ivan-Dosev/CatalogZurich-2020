@@ -33,12 +33,8 @@ struct ContentView: View {
             .offset( y: -100)
             
             Button(action: { self.isShow.toggle()
-
-
             }) {
                 VStack{
-
-                    
                          LottieView(filename: "a567", isPaused: isShow)
                         .frame(width: sizeFond / 3, height:sizeFond / 3 )
                         .background(Color
@@ -49,7 +45,6 @@ struct ContentView: View {
                             
                             .rotation3DEffect(.init(degrees: 10), axis: (x: 0, y: 1, z: 0)) )
                             .shadow(color: Color.black, radius: 9, x: 5, y: 5)
-                        
                         .padding()
                     
                     Text("start")
@@ -60,8 +55,10 @@ struct ContentView: View {
                     }
 
                 }
-
+            .sheet(isPresented: self.$isShow) { Tab10() }
         }
+
+    
     }
 }
 
